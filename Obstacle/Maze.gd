@@ -15,3 +15,7 @@ func _ready():
 				o.position.x = x*grid
 				o.position.y = y*grid
 				add_child(o)
+
+
+func _on_Reload_timeout():
+	pass # Replace with function body.
